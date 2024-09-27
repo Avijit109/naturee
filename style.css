@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root{
+    --btn-bg-color:#ffd936;
+    --btn-hover-bg-color:#dab200;
+    
+}
+
+
+
+.navbar-brand img{
+    width: 70%;
+}
+/* ===========================banner=============================== */
+.banner{
+    height: 655px;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) ,url(./image/ship-8170663_640.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.banner .row h1 span{
+    font-size: 120px;
+}
+.banner .row p{
+    font-size: 16px;
+}
+.banner .btn{
+    background-color: var(--btn-bg-color) !important;
+    padding: 15px 0px;
+}
+.banner .btn:hover{
+    background-color: var(--btn-hover-bg-color) !important;
+}
+/* ============================services=============================== */
+.service .row h2::after{
+    content: "";
+    width: 10%;
+    height: 3px;
+    background-color: var(--btn-bg-color);
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: -25px;
+    left: 50%;
+    
+}
+.service .col-4{
+    width: 32%;
+}
+/* ===============================review section============================ */
+.review{
+    height: auto;
+    margin: 30px 0px;
+}
+.review img{
+    width: 10%;
+}
+.review h4{
+    font-family: "Forum", serif !important;
+    letter-spacing: -2px !important;
+    font-size: 36px !important;
+}
+/* ===============================about section================================= */
+.about .col-7 h3{
+    padding-right: 30% !important;
+    font-size: 40px !important;
+    letter-spacing: -2px !important;
+    font-family: "Forum", serif !important;
+}
+.about .col-7 h2{
+    font-size: 12px;
+}
+.about .col-7 p{
+    padding-right: 39%;
+    font-size: 16px;
+}
+.about .col-5 img{
+    height: 490px;
+    width: 100%;
+   
+}
+.about .col-7 .btn{
+    padding: 12px 28px;
+    
+}
+
+/* ===========================question=========================== */
+.ques{
+    background: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/footer-hero-big.jpg);
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+}
+.ques h2{
+    font-size: 60px;
+}
+
+.ques p{
+    font-size: 16px;
+    width: 35%;
+}
+.ques .btn{
+    background-color: var(--btn-bg-color) !important;
+    width: 15%;
+}
+.ques .btn:hover{
+    background-color: var(--btn-hover-bg-color) !important;
+}
+/* ==================footer section========================= */
+footer ul li{
+    list-style: none;
+}
+footer .col-4 img{
+    width: 15%;
+}
